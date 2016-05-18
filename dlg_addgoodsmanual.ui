@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>dlg_addGoodsManual</class>
+ <widget class="QDialog" name="dlg_addGoodsManual">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>742</width>
+    <height>305</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Добавить вручную</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_5">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLineEdit" name="le_barcode"/>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QTableView" name="tvw_selectData"/>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QLabel" name="lbl_expDate">
+         <property name="text">
+          <string>Срок годности</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QDateEdit" name="de_expDate"/>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QLabel" name="lbl_invoiceNumber">
+         <property name="text">
+          <string>Номер документа</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="le_invoiceNumber"/>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="QLabel" name="lbl_invoiceDate">
+         <property name="text">
+          <string>Дата документа</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QDateEdit" name="de_invoiceDate"/>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_4">
+       <item>
+        <widget class="QLabel" name="lbl_purchasePrice">
+         <property name="text">
+          <string>Цена закупки</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="le_purchasePrice"/>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_4">
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="chb_createLike">
+       <property name="text">
+        <string>Создать подобный</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_add">
+       <property name="text">
+        <string>Добавить</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_cancel">
+       <property name="text">
+        <string>Отмена</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>settingsDialog</class>
+ <widget class="QDialog" name="settingsDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>642</width>
+    <height>353</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Настройки</string>
+  </property>
+  <widget class="QTabWidget" name="tw_settings">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>641</width>
+     <height>351</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>1</number>
+   </property>
+   <widget class="QWidget" name="tab_server">
+    <attribute name="title">
+     <string>Сервер</string>
+    </attribute>
+   </widget>
+   <widget class="QWidget" name="tab_proclibs">
+    <attribute name="title">
+     <string>Обработки</string>
+    </attribute>
+    <widget class="QTableView" name="twv_proclibs">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>621</width>
+       <height>301</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
